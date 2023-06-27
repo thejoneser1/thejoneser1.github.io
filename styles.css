@@ -10,7 +10,7 @@ body {
 header {
     position: relative;
     overflow: hidden;
-    height: 400px; /* Adjust the height as needed */
+    height: 100vh; /* Adjust the height as needed */
   }
   
   .hero-image {
@@ -27,7 +27,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff;
+    color: #000;
   }
   
   .hero-text h1 {
