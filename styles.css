@@ -6,11 +6,39 @@ body {
   }
   
   /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+  /* Header styles */
+header {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Adjust the height as needed */
   }
+  
+  .hero-image {
+    background-image: url("https://u.osu.edu/marker.11/files/2014/08/universityhall-03-2akr1qr.jpg"); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+  }
+  
   
   h1 {
     margin: 0;
